@@ -26,7 +26,7 @@ if (isset($_POST['game']) && isset($_POST['user_key']) && isset($_POST['serial']
                 "mod_server" => "Original",
                 "isLoggedin" => true,
                 "login_mod" => "Admin",
-                "credit" => "RHAUN",
+                "credit" => "FREE",
                 "version" => "1.0",
                 "updatedapk" => true,
                 "loginstatus" => true,
@@ -55,10 +55,10 @@ if (isset($_POST['game']) && isset($_POST['user_key']) && isset($_POST['serial']
 } else {
     $error_response = [
         "status" => false,
-        "message" => "TG @crackmodpro"
+        "message" => "Login bypass"
     ];
     header('Content-Type: application/json');
     echo json_encode($error_response);
 }
 ?>
-//tg@crackmodpro
+
