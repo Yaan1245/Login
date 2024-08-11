@@ -1,7 +1,7 @@
 <?php
 
 // Define the valid user key
-$valid_user_key = "YOUR-KEY-HERE"; //<<--- YOUR KEY HERE
+$valid_user_key = "FREE-BY-TG-@crackmod_pro"; //<<--- YOUR KEY HERE
 //tg @crackmodpro
 // Check if the necessary POST parameters are set
 if (isset($_POST['game']) && isset($_POST['user_key']) && isset($_POST['serial'])) {
